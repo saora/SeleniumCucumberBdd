@@ -1,0 +1,8 @@
+Feature: Login Action
+
+  Scenario: Successful login with valid credential
+    Given User is on Home Page
+    When Browser has the login url
+    Then  User enters Username and Password
+    And User is on landing page
+
